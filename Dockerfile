@@ -11,6 +11,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get install -yq \
   libcurl4-openssl-dev \
+  libbz2-dev \
+  liblzma-dev \
+  libpcre3-dev \
   zlib1g-dev \
   libxml2-dev \
   libblas-dev 
